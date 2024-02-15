@@ -9,7 +9,6 @@ import SwiftUI
 
 struct WeatherView: View {
   var weather: ResponseBody
-  
   var body: some View {
     ZStack(alignment: .leading){
       VStack{
@@ -25,7 +24,8 @@ struct WeatherView: View {
         VStack{
           HStack{
             VStack(spacing:20){
-              Image(systemName: "sun.max.fill")
+              
+              Image(systemName: weather.setWeatherIcon(weatherName: weather.weather[0].main))
                 .font(.system(size: 40))
               
               Text(weather.weather[0].main)

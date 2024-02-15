@@ -58,6 +58,27 @@ struct ResponseBody: Decodable {
     var speed: Double
     var deg: Double
   }
+  
+  func setWeatherIcon(weatherName: String) -> String{
+    switch  weatherName{
+    case "Thunderstorm":
+      return "cloud.bolt.rain.fill"
+    case "Drizzle":
+      return "cloud.drizzle.fill"
+    case "Rain":
+      return "cloud.rain.fill"
+    case "Snow":
+      return "cloud.snow.fill"
+    case "Mist":
+      return "cloud.fog.fill"
+    case "Clear":
+      return "sun.max.fill"
+    case "Clouds":
+      return "cloud.fill"
+    default:
+      return "cloud.fill"
+    }
+  }
 }
 
 extension ResponseBody.MainResponse {
