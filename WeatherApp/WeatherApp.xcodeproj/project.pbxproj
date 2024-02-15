@@ -19,6 +19,7 @@
 		81B4A3AB2B7E1C32003C3F30 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3AA2B7E1C32003C3F30 /* WeatherView.swift */; };
 		81B4A3AD2B7E1C63003C3F30 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3AC2B7E1C63003C3F30 /* ModelData.swift */; };
 		81B4A3AF2B7E1D6F003C3F30 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 81B4A3AE2B7E1D6F003C3F30 /* weatherData.json */; };
+		81B4A3B12B7E1EAE003C3F30 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3B02B7E1EAE003C3F30 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		81B4A3AA2B7E1C32003C3F30 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		81B4A3AC2B7E1C63003C3F30 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		81B4A3AE2B7E1D6F003C3F30 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		81B4A3B02B7E1EAE003C3F30 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				81B4A3A02B7DE49B003C3F30 /* Views */,
 				81B4A39D2B7DE335003C3F30 /* Managers */,
 				81B4A38F2B7DDF35003C3F30 /* WeatherAppApp.swift */,
+				81B4A3B02B7E1EAE003C3F30 /* Extensions.swift */,
 				81B4A3932B7DDF36003C3F30 /* Assets.xcassets */,
 				81B4A3952B7DDF36003C3F30 /* Preview Content */,
 			);
@@ -191,6 +194,7 @@
 				81B4A3AD2B7E1C63003C3F30 /* ModelData.swift in Sources */,
 				81B4A39F2B7DE344003C3F30 /* LocationManager.swift in Sources */,
 				81B4A3A92B7DF871003C3F30 /* WeatherManager.swift in Sources */,
+				81B4A3B12B7E1EAE003C3F30 /* Extensions.swift in Sources */,
 				81B4A3A72B7DF763003C3F30 /* ApiSettings.swift in Sources */,
 				81B4A3A42B7DE85B003C3F30 /* LoadingView.swift in Sources */,
 				81B4A3A22B7DE4DE003C3F30 /* WelcomeView.swift in Sources */,
