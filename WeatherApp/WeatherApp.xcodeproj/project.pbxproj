@@ -15,6 +15,7 @@
 		81B4A3A22B7DE4DE003C3F30 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3A12B7DE4DE003C3F30 /* WelcomeView.swift */; };
 		81B4A3A42B7DE85B003C3F30 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3A32B7DE85B003C3F30 /* LoadingView.swift */; };
 		81B4A3A72B7DF763003C3F30 /* ApiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3A62B7DF763003C3F30 /* ApiSettings.swift */; };
+		81B4A3A92B7DF871003C3F30 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4A3A82B7DF871003C3F30 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		81B4A3A12B7DE4DE003C3F30 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		81B4A3A32B7DE85B003C3F30 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		81B4A3A62B7DF763003C3F30 /* ApiSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSettings.swift; sourceTree = "<group>"; };
+		81B4A3A82B7DF871003C3F30 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				81B4A39E2B7DE344003C3F30 /* LocationManager.swift */,
+				81B4A3A82B7DF871003C3F30 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				81B4A3922B7DDF35003C3F30 /* ContentView.swift in Sources */,
 				81B4A3902B7DDF35003C3F30 /* WeatherAppApp.swift in Sources */,
 				81B4A39F2B7DE344003C3F30 /* LocationManager.swift in Sources */,
+				81B4A3A92B7DF871003C3F30 /* WeatherManager.swift in Sources */,
 				81B4A3A72B7DF763003C3F30 /* ApiSettings.swift in Sources */,
 				81B4A3A42B7DE85B003C3F30 /* LoadingView.swift in Sources */,
 				81B4A3A22B7DE4DE003C3F30 /* WelcomeView.swift in Sources */,
